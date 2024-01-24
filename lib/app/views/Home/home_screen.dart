@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../../controllers/Home/home_controller.dart';
+import 'home_controller.dart';
 
 class HomeScreen extends GetView<HomeController> {
   const HomeScreen({super.key});
@@ -20,20 +20,26 @@ class HomeScreen extends GetView<HomeController> {
                 currentIndex: controller.currentindex.value,
                 onTap: (index) => controller.updateBarIndex(index),
                 type: BottomNavigationBarType.fixed,
-                items: const [
+                items: [
                   BottomNavigationBarItem(
                     icon: Icon(
-                      Icons.group_outlined,
+                      controller.currentindex.value == 0
+                          ? Icons.home_rounded
+                          : Icons.home_outlined,
+                    ),
+                    label: 'الرئيسية',
+                  ),
+                  BottomNavigationBarItem(
+                    icon: Icon(
+                      controller.currentindex.value == 1
+                          ? Icons.group
+                          : Icons.group_outlined,
                     ),
                     label: 'جهات الاتصال',
                   ),
-                  BottomNavigationBarItem(
+                  const BottomNavigationBarItem(
                     icon: Icon(Icons.list_rounded),
                     label: 'جدول',
-                  ),
-                  BottomNavigationBarItem(
-                    icon: Icon(Icons.event_note_rounded),
-                    label: 'ملاحظة',
                   ),
                 ],
               ),

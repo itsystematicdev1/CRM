@@ -26,7 +26,8 @@ class CustomTextField extends StatelessWidget {
       controller: controller,
       keyboardType: keyboardType ?? TextInputType.text,
       maxLines: maxLine ?? 1,
-      autofillHints: autoFill??[],
+      autofillHints: autoFill ?? [],
+      onTapOutside: (event) => FocusScope.of(context).unfocus(),
       minLines: 1,
       decoration: InputDecoration(
         filled: true,

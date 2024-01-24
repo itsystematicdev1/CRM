@@ -1,4 +1,4 @@
-import 'package:auto_size_text/auto_size_text.dart';
+import 'package:salesman/app/helper/test_size_helper.dart';
 import 'package:flutter/material.dart';
 
 class CustomText extends StatelessWidget {
@@ -6,8 +6,7 @@ class CustomText extends StatelessWidget {
     super.key,
     required this.title,
     this.wrapWords = true,
-    this.maxFontSize = 16,
-    this.minFontSize = 14,
+    this.fontSize = 14,
     this.overflow = TextOverflow.ellipsis,
     this.style,
     this.maxLine = 1,
@@ -16,22 +15,22 @@ class CustomText extends StatelessWidget {
 
   final String title;
   final bool wrapWords;
-  final double maxFontSize;
-  final double minFontSize;
+  final double fontSize;
   final TextOverflow overflow;
   final TextStyle? style;
   final Color? textColor;
   final int maxLine;
   @override
   Widget build(BuildContext context) {
-    return AutoSizeText(
+    return Text(
       title,
-      wrapWords: wrapWords,
-      maxFontSize: maxFontSize,
-      minFontSize: minFontSize,
+      softWrap: wrapWords,
       maxLines: maxLine,
       overflow: overflow,
-    
+      style: style ??
+          Theme.of(context).textTheme.bodyMedium!.copyWith(
+              fontSize: getFontSize(context, fontSize: fontSize),
+              color: Theme.of(context).colorScheme.onPrimary),
     );
   }
 }

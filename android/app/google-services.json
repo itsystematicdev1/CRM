@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "588564661414",
+    "project_id": "sales-tracking-410607",
+    "storage_bucket": "sales-tracking-410607.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588564661414:android:aaf8a984a953612b642067",
+        "android_client_info": {
+          "package_name": "com.newera.salesman"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_AApP6YPvvm4h61HVxySKblCgtdGAudk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,5 +1,5 @@
-name: crm
-description: A new Flutter project.
+name: salesman
+description: A new Flutter project By New era soft.
 publish_to: none
 version: 1.0.0+1
 environment:
@@ -13,20 +13,33 @@ dependencies:
     get: ^4.6.1
     get_storage: ^2.0.3
     http: ^1.1.2
-    shared_preferences: ^2.0.8
-    flutter_local_notifications: ^16.2.0
+    shared_preferences: ^2.2.2
     intl: ^0.18.1
     auto_size_text: ^3.0.0
-    json_theme: ^6.4.0
-    flutter_expandable_fab: ^2.0.0
     sqflite: ^2.3.0
     path: ^1.8.3
     syncfusion_flutter_calendar: ^24.1.44
+    google_maps_flutter: ^2.5.1
+    flutter_polyline_points: ^2.0.0
+    location: ^5.0.3
+    geolocator: ^10.1.0
+    firebase_core: ^2.24.2
+    permission_handler: ^11.1.0
+    firebase_auth: ^4.16.0
+    cloud_firestore: ^4.14.0
+    url_launcher: ^6.2.3
+    mailer: ^6.0.1
+    flutter_svg: ^2.0.9
+    cached_network_image: ^3.3.1
+    whatsapp_unilink: ^2.1.0 
+    lottie: ^3.0.0
+    
 
 dev_dependencies:
     flutter_test:
         sdk: flutter
     flutter_lints: ^3.0.1
+    
 flutter:
   uses-material-design: true
   assets:
@@ -39,3 +52,9 @@ flutter:
         - asset: assets/font/Almarai-ExtraBold.ttf
         - asset: assets/font/Almarai-Light.ttf
         - asset: assets/font/Almarai-Regular.ttf
+
+flutter_assets:
+  assets_path: assets/image/
+  output_path: lib/app/constants/
+  filename: app_images.dart
+  field_prefix:

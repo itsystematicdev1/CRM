@@ -1,4 +1,4 @@
-package com.example.crm
+package com.newera.salesman
 
 import io.flutter.embedding.android.FlutterActivity
 
