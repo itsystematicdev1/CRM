@@ -2,7 +2,7 @@ import 'package:salesman/app/helper/log.dart';
 import 'package:flutter/material.dart';
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
-import '../../views/schadule/models/schadule_model.dart';
+import '../../presentation/schadule/models/schadule_model.dart';
 
 class MeetingDB {
   static Database? _database;

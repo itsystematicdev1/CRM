@@ -1,4 +1,4 @@
-import 'package:salesman/app/views/contacts/model/contact_info_model.dart';
+import 'package:salesman/app/presentation/contacts/model/contact_info_model.dart';
 import 'package:salesman/app/helper/log.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';

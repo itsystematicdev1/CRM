@@ -7,8 +7,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'app/views/Home/home_binding.dart';
-import 'app/views/authentication/controller/signin_bindings.dart';
+import 'app/presentation/Home/controller/home_binding.dart';
+import 'app/presentation/authentication/controller/signin_bindings.dart';
 
 SharedPreferences? sharedpref;
 

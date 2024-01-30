@@ -1,7 +1,7 @@
 import 'package:salesman/app/widget/custom_text_field.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../../../../presentation/authentication/controller/signin_controller.dart';
+import '../../../../../presentation/authentication/controller/signin_controller.dart';
 
 class SignInForm extends StatelessWidget {
   const SignInForm({super.key, required this.controller});

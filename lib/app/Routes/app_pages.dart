@@ -1,19 +1,19 @@
-import 'package:salesman/app/views/authentication/controller/signin_bindings.dart';
-import 'package:salesman/app/views/map/contoller/map_bindings.dart';
-import 'package:salesman/app/views/Home/home_screen.dart';
-import 'package:salesman/app/views/authentication/view/signin_screen.dart';
-import 'package:salesman/app/views/contacts/view/contacts/contacts_screen.dart';
-import 'package:salesman/app/views/contacts/view/contacts/add_contact_screen.dart';
-import 'package:salesman/app/views/contacts/view/contacts/loasted_customer.dart';
-import 'package:salesman/app/views/map/view/map_screen.dart';
-import 'package:salesman/app/views/onboarding/view/on_boardin_screen.dart';
-import 'package:salesman/app/views/schadule/view/add_new_schadule_screen.dart';
-import 'package:salesman/app/views/schadule/view/schadule_screen.dart';
+import 'package:salesman/app/presentation/authentication/controller/signin_bindings.dart';
+import 'package:salesman/app/presentation/map_feature/layers/display_map_tasks/controller/map_bindings.dart';
+import 'package:salesman/app/presentation/Home/view/home_screen.dart';
+import 'package:salesman/app/presentation/authentication/view/signin_screen.dart';
+import 'package:salesman/app/presentation/contacts/layers/contacts_controll_screen/view/contacts_screen.dart';
+import 'package:salesman/app/presentation/contacts/layers/add_new_contact/view/add_contact_screen.dart';
+import 'package:salesman/app/presentation/contacts/layers/lost_contact_layer/view/loasted_customer.dart';
+import 'package:salesman/app/presentation/onboarding/view/on_boardin_screen.dart';
+import 'package:salesman/app/presentation/schadule/view/add_new_schadule_screen.dart';
+import 'package:salesman/app/presentation/schadule/view/schadule_screen.dart';
 import 'package:get/get.dart';
-import '../views/Home/home_binding.dart';
-import '../views/contacts/controller/contacts_bindings.dart';
-import '../views/contacts/controller/new_contacts_bindings.dart';
-import '../views/schadule/controller/schadule_binding.dart';
+import '../presentation/Home/controller/home_binding.dart';
+import '../presentation/contacts/layers/add_new_contact/controller/new_contacts_bindings.dart';
+import '../presentation/contacts/layers/contacts_controll_screen/controller/contacts_bindings.dart';
+import '../presentation/map_feature/layers/display_google_maps/map_screen.dart';
+import '../presentation/schadule/controller/schadule_binding.dart';
 
 part 'app_routes.dart';
 

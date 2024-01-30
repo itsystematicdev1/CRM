@@ -5,6 +5,9 @@ class Assets {
   /// assets/image/0%.svg
   static const String image0 = "assets/image/0%.svg";
 
+  /// assets for login_form
+  static const String loginForm = "assets/image/login_form.json";
+
   /// Assets for image100%
   /// assets/image/100%.svg
   static const String image100 = "assets/image/100%.svg";

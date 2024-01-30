@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:intl/intl.dart';
 import '../../../helper/log.dart';
-import '../../../views/map/models/route_data_model.dart';
+import '../../../presentation/map_feature/layers/display_google_maps/models/route_data_model.dart';
 
 class FirebaseFirestoreService {
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;
